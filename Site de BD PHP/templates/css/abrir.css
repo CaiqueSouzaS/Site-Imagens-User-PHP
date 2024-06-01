@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@300&display=swap');
+
+body{
+    background-color: #1c1c24;
+    color:#fff;
+}
+
+::selection {
+    background-color: #fff;
+    color: #282726;
+}
+
+* {
+    margin-top: 20px;
+    margin-left: 40px;
+    font-family: 'Anek Devanagari', sans-serif;
+    text-align: center;
+    justify-content: center;
+text-decoration: none;
+}
+a {
+    color: #8aacf6;
+    text-decoration: none;
+}
+
+a:hover {
+    cursor: pointer;
+    color: #6489d9;
+}
+.botao{
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+    color: #fff;
+    background-color: #2c2c5a;
+    box-shadow: 0px 0px 20px 0px #2c2c5a;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.botao:hover{
+    box-shadow: none;
+    border: none;
+    background-color: #212144;
+    transform: translateY(3px);
+}
+
